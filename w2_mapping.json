@@ -1,0 +1,42 @@
+{
+  "Célibataire sans PACS": {
+    "start_paraId": "7D592161",
+    "end_paraId": "5F77F3B4",
+    "exclude_end": true
+  },
+  "Célibataire avec PACS": {
+    "start_paraId": "76886C23",
+    "end_paraId": "347FEC1F",
+    "exclude_end": true
+  },
+  "Marié sans contrat": {
+    "start_paraId": "47E39B41",
+    "end_paraId": "6BE9112F",
+    "exclude_end": true
+  },
+  "Marié avec contrat": {
+    "start_paraId": "1CF796C8",
+    "end_paraId": "62CAFAFE",
+    "exclude_end": true
+  },
+  "Un époux agit seul": {
+    "start_paraId": "2F0BB2EC",
+    "end_paraId": "34C370F3",
+    "exclude_end": true
+  },
+  "Précédent mariage": {
+    "start_paraId": "7F8F9F1D",
+    "end_paraId": "0B113464",
+    "exclude_end": true
+  },
+  "Veuf": {
+    "start_paraId": "3BDB3639",
+    "end_paraId": "146F1A49",
+    "exclude_end": true
+  },
+  "Divorcé": {
+    "start_paraId": "7DC8F427",
+    "end_paraId": "50883B3A",
+    "exclude_end": true
+  }
+}

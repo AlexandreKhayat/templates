@@ -1,0 +1,50 @@
+{
+  "SAFRAN": {
+    "section": "SAFRAN",
+    "start_paraId": "1D02FC62",
+    "end_paraId": "16AB4E9E",
+    "exclude_end": true
+  },
+  "PHH1": {
+    "section": "PHH1",
+    "start_paraId": "5F514FE3",
+    "end_paraId": "60A6B4E1",
+    "exclude_end": true
+  },
+  "PHH3": {
+    "section": "PHH3",
+    "start_paraId": "5A8329DA",
+    "end_paraId": "127AFDC0",
+    "exclude_end": true
+  },
+  "AVH2": {
+    "section": "AV Habitat 2",
+    "start_paraId": "34C94BFF",
+    "end_paraId": "0DD8583A",
+    "exclude_end": true
+  },
+  "CH": {
+    "section": "Capital Habitat",
+    "start_paraId": "4992F9B0",
+    "end_paraId": "7BBBC9D8",
+    "exclude_end": true
+  },
+  "PA": {
+    "section": "Pierre Avenir",
+    "start_paraId": "0EAAD4D2",
+    "end_paraId": "5927CDC2",
+    "exclude_end": true
+  },
+  "PA2": {
+    "section": "Pierre Avenir 2",
+    "start_paraId": "7A6039BC",
+    "end_paraId": "2E26F3EE",
+    "exclude_end": true
+  },
+  "PA3": {
+    "section": "Pierre Avenir 3",
+    "start_paraId": "7536380D",
+    "end_paraId": "76BBF316",
+    "exclude_end": true
+  }
+}

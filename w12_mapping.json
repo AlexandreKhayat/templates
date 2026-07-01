@@ -1,0 +1,17 @@
+{
+  "Vacant": {
+    "start_paraId": "0039E9AD",
+    "end_paraId": "0B58CDB4",
+    "marker": "{transfert_jouissance}"
+  },
+  "Occupé vendu au locataire": {
+    "start_paraId": "15807A24",
+    "end_paraId": "51FAD54E",
+    "marker": "{transfert_jouissance}"
+  },
+  "Occupé vendu à tiers": {
+    "start_paraId": "1D7FC559",
+    "end_paraId": "7FD201CE",
+    "marker": "{transfert_jouissance}"
+  }
+}

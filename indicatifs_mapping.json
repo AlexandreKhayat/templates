@@ -1,0 +1,58 @@
+{
+  "[hono_occupe_locataire_debut]": {
+    "role": "Début §2.5 honoraires",
+    "bloc": "Supprimé si `Occupé vendu au locataire"
+  },
+  "[hono_occupe_locataire_fin]": {
+    "role": "Fin §2.5 honoraires",
+    "bloc": "Supprimé si `Occupé vendu au locataire"
+  },
+  "[financement_debut]": {
+    "role": "Début variante avec prêt",
+    "bloc": "Supprimé si `financement ≠ Non"
+  },
+  "[financement_fin]": {
+    "role": "Fin variante avec prêt",
+    "bloc": "Supprimé si `financement ≠ Non"
+  },
+  "[absence_financement_debut]": {
+    "role": "Début variante sans prêt",
+    "bloc": "Supprimé si `financement = Non"
+  },
+  "[absence_financement_fin]": {
+    "role": "Fin variante sans prêt",
+    "bloc": "Supprimé si `financement = Non"
+  },
+  "[copropriete_debut_1]": {
+    "role": "Début bloc copropriété 1",
+    "bloc": "Supprimé si `Pleine détention"
+  },
+  "[copropriete_fin_1]": {
+    "role": "Fin bloc copropriété 1",
+    "bloc": "Supprimé si `Pleine détention"
+  },
+  "[copropriete_debut_2]": {
+    "role": "Début bloc copropriété 2",
+    "bloc": "Supprimé si `Pleine détention"
+  },
+  "[copropriete_fin_2]": {
+    "role": "Fin bloc copropriété 2",
+    "bloc": "Supprimé si `Pleine détention"
+  },
+  "[diag_parties_communes_debut]": {
+    "role": "Début diag. parties communes",
+    "bloc": "Supprimé si `Pleine détention"
+  },
+  "[diag_parties_communes_fin]": {
+    "role": "Fin diag. parties communes",
+    "bloc": "Supprimé si `Pleine détention"
+  },
+  "[Pleine_detention_debut]": {
+    "role": "Début bloc pleine détention",
+    "bloc": "Supprimé si `Copropriété"
+  },
+  "[Pleine_detention_fin]": {
+    "role": "Fin bloc pleine détention",
+    "bloc": "Supprimé si `Copropriété"
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "base": "appXeGhdwZbEmX45T",
+  "table": "tbljOi8YOBUh1FJs5",
+  "route_fields": {
+    "Code_Airtable": {
+      "fieldId": "fldKSTSaN5pMUnezd",
+      "role": "Filtre Étape 1"
+    },
+    "Client": {
+      "fieldId": "fld9y5xOCptCA8orS",
+      "role": "Routage W1 + clé lookup notaire vendeur"
+    },
+    "Propriétaire": {
+      "fieldId": "fld6d9xpB1sRYMMXN",
+      "role": "Dénomination §2.1 + sous-routage W1 si BNP REIM"
+    },
+    "Actif_ou_CNPE": {
+      "fieldId": "fldFgbob9bsYUvD4J",
+      "role": "2e clé lookup notaire vendeur"
+    },
+    "id_lot": {
+      "fieldId": "fldTIH4sylw23XVkp",
+      "role": "Interne — NE PAS confondre avec Client"
+    },
+    "Type_compromis": {
+      "fieldId": "fldJzQVB5SruhWeCb",
+      "role": "Routage W12 + suppression §2.5 — §3.4bis / §4.1"
+    },
+    "financement": {
+      "fieldId": "fldlTmtXM2OG40FhM",
+      "role": "Suppression §2.6 — §4.1"
+    },
+    "Regime_detention": {
+      "fieldId": "fldziJKNsd5nhLoRF",
+      "role": "Suppression bloc désignation — §4.1"
+    }
+  },
+  "markers": {
+    "Proprietaire": {
+      "field": "Propriétaire",
+      "fieldId": "fld6d9xpB1sRYMMXN",
+      "marker": "{{Proprietaire}}"
+    },
+    "Lot_principal": {
+      "field": "Lot_principal",
+      "fieldId": "fldFFFHh0PhkuJdvB",
+      "marker": "{{Lot_principal}}"
+    },
+    "Prix_de_vente_NV": {
+      "field": "Prix_de_vente_NV",
+      "fieldId": "fldSbw2HvKaSFbC6Q",
+      "marker": "{{Prix_de_vente_NV}}"
+    },
+    "Montant_max_empr": {
+      "field": "Montant_max_empr",
+      "fieldId": "fldNh7fpbiljph2xq",
+      "marker": "{{Montant_max_empr}}"
+    },
+    "depot_garantie_verse_chiffre": {
+      "field": "depot_garantie_verse_chiffre",
+      "fieldId": "fldSUgfVmyvOfR3Ft",
+      "marker": "{{depot_garantie_verse_chiffre}}"
+    },
+    "Clause_penale": {
+      "field": "Clause_pénale",
+      "fieldId": "fldpIeekXorlCJ1XZ",
+      "marker": "{{Clause_penale}}"
+    },
+    "Honos_ttc_Prix_vente_euros": {
+      "field": "Honos_ttc_Prix_vente_euros",
+      "fieldId": "fldcgOU4mI91J97dn",
+      "marker": "{{Honos_ttc_Prix_vente_euros}}"
+    },
+    "durée_max_empruntée": {
+      "field": "durée_max_empruntée",
+      "fieldId": "fldMbB9KztJLlLPqM",
+      "marker": "{{durée_max_empruntée}}"
+    },
+    "Taux_maximal_emprunt": {
+      "field": "Taux_maximal_emprunt",
+      "fieldId": "fldxzywH6N16CDuCn",
+      "marker": "{{Taux_maximal_emprunt}}"
+    },
+    "Mail_1": {
+      "field": "Mail_1",
+      "fieldId": "fldxx07vbcYAsJspT",
+      "marker": "{{Mail_1}}"
+    },
+    "Notaire_acquereur": {
+      "field": "Notaire_acquereur",
+      "fieldId": "fldNK4QYrbdWXuybw",
+      "marker": "{{Notaire_acquereur}}"
+    },
+    "Adresse _notaire_acquereur}}`": {
+      "field": "Adresse_notaire_acquereur",
+      "fieldId": "fldP73oumJ2JCiLWz",
+      "marker": "{{Adresse _notaire_acquereur}}`"
+    },
+    "Code_postal_notaire_acquereur": {
+      "field": "Code_postal_notaire_acquereur",
+      "fieldId": "fldYVabp69vvyx5oQ",
+      "marker": "{{Code_postal_notaire_acquereur}}"
+    },
+    "Ville_notaire_acquereur": {
+      "field": "Ville_notaire_acquereur",
+      "fieldId": "fldlamHLyJlxHbCtP",
+      "marker": "{{Ville_notaire_acquereur}}"
+    },
+    "Telephone_Notaire_Acquereur": {
+      "field": "Telephone_Notaire_Acquereur",
+      "fieldId": "fldz9s80whXEEss1U",
+      "marker": "{{Telephone_Notaire_Acquereur}}"
+    },
+    "Email_Notaire_Acquereur": {
+      "field": "Email_Notaire_Acquereur",
+      "fieldId": "fldZCkOl8JGH9D0AQ",
+      "marker": "{{Email_Notaire_Acquereur}}"
+    },
+    "Adresse_lot": {
+      "field": "Adresse_lot",
+      "fieldId": "fldXI6O6fgpDePlLi",
+      "marker": "{{Adresse_lot}}"
+    },
+    "Code_postal_lot": {
+      "field": "Code_postal_lot",
+      "fieldId": "fldxaPfuQ3k7IAcnl",
+      "marker": "{{Code_postal_lot}}"
+    },
+    "Commune_lot": {
+      "field": "Commune_lot",
+      "fieldId": "fldRovY6q5jnTzfOY",
+      "marker": "{{Commune_lot}}"
+    },
+    "Typologie": {
+      "field": "Typologie",
+      "fieldId": "fldoMOGab8dhorv9S",
+      "marker": "{{Typologie}}"
+    },
+    "garage_attenant": {
+      "field": "garage_attenant",
+      "fieldId": "fldkjCTx9mQnFEC1V",
+      "marker": "{{garage_attenant}}"
+    },
+    "jardin_attenant": {
+      "field": "jardin_attenant",
+      "fieldId": "fldXr8sXbiuBYUj9Y",
+      "marker": "{{jardin_attenant}}"
+    },
+    "Surface Carrez}}`": {
+      "field": "Surface Carrez",
+      "fieldId": "fldjjcMH7HtHdCMuG",
+      "marker": "{{Surface Carrez}}`"
+    },
+    "adresse_bien": {
+      "field": "adresse_bien",
+      "fieldId": "fieldId à compléter — champ inexistant en base",
+      "marker": "{{adresse_bien}}"
+    },
+    "section_cadastrale": {
+      "field": "section_cadastrale",
+      "fieldId": "fieldId à compléter — champ inexistant en base",
+      "marker": "{{section_cadastrale}}"
+    },
+    "Numero_cadastral": {
+      "field": "Numero_cadastral",
+      "fieldId": "fieldId à compléter — champ inexistant en base",
+      "marker": "{{Numero_cadastral}}"
+    },
+    "Surface_cadastrale": {
+      "field": "Surface_cadastrale",
+      "fieldId": "fieldId à compléter — champ inexistant en base",
+      "marker": "{{Surface_cadastrale}}"
+    }
+  },
+  "special_fields": {
+    "Honoraires à la charge de:": {
+      "field": "Honoraires à la charge de:",
+      "fieldId": "fld9QI0B3q5umU0U5"
+    },
+    "Document_Carrez": {
+      "field": "Document_Carrez",
+      "fieldId": "fldOl5WXJmDFd4nyj"
+    },
+    "Actif_ou_CNPE": {
+      "field": "Actif_ou_CNPE",
+      "fieldId": "fldFgbob9bsYUvD4J"
+    },
+    "Document_Termites_PC": {
+      "field": "Document_Termites_PC",
+      "fieldId": "fldE7zOKdvTTDez7a"
+    },
+    "Document_Assainissement_PC": {
+      "field": "Document_Assainissement_PC",
+      "fieldId": "fldhawarDUr6rWnhU"
+    },
+    "Document_termites": {
+      "field": "Document_termites",
+      "fieldId": "fldc97dCLbjD21P2w"
+    },
+    "Document_diagnostic_gaz": {
+      "field": "Document_diagnostic_gaz",
+      "fieldId": "fld2zHTzUt1qMG8Hd"
+    },
+    "Document_ERP": {
+      "field": "Document_ERP",
+      "fieldId": "fldFJpRQ6AY6kDkQs"
+    },
+    "Document_DPE": {
+      "field": "Document_DPE",
+      "fieldId": "fldxWm1CQD3ZmTNTv"
+    },
+    "Document_electricite": {
+      "field": "Document_electricite",
+      "fieldId": "fldy8m6qByLxCfvE8"
+    },
+    "Document_Assainissement": {
+      "field": "Document_Assainissement",
+      "fieldId": "fldqRsTHWkltKlDNA"
+    },
+    "Code_Airtable": {
+      "field": "Code_Airtable",
+      "fieldId": "fldKSTSaN5pMUnezd"
+    },
+    "Client": {
+      "field": "Client",
+      "fieldId": "fld9y5xOCptCA8orS"
+    },
+    "Statut marital acq.1": {
+      "field": "Statut marital acq.1",
+      "fieldId": "fldphtHo1FDr022Dt"
+    },
+    "Régime matrimonial": {
+      "field": "Régime matrimonial",
+      "fieldId": "fldetLeyEy7le9obf"
+    },
+    "Ordre des noces": {
+      "field": "Ordre des noces",
+      "fieldId": "flduACb4y5f1Dvcz9"
+    }
+  },
+  "lettre_claude": {
+    "lot_principal_lettre_Claude": {
+      "fieldId": "fldFFFHh0PhkuJdvB",
+      "capitalize_initial": true
+    },
+    "Prix_de_vente_NV_lettre_Claude": {
+      "fieldId": "fldSbw2HvKaSFbC6Q"
+    },
+    "honos_ttc_Prix_vente_euros_lettre_Claude": {
+      "fieldId": "fldcgOU4mI91J97dn"
+    },
+    "Clause_penale_lettre_Claude": {
+      "fieldId": "fldpIeekXorlCJ1XZ"
+    },
+    "depot_garantie_verse_lettre_Claude": {
+      "fieldId": "fldSUgfVmyvOfR3Ft"
+    }
+  },
+  "w2_fields": {
+    "Adresse_acquéreur": "fldXWVD2BGxIQSKyl",
+    "Pays_résident_fiscal_1": "fldgvSiCq9kxHgz4e",
+    "Ville_acquéreur": "fldnpDKqEqpO3uxci",
+    "Pays_résident_fiscal_2": "fldvRaw6XYVzR3ydi",
+    "Code_postal_acquéreur": "fldJFM42GHiotsIBy",
+    "civilité_veuf_deces": "fldzN2wL3AujukM7c",
+    "Situation maritale": "fldphtHo1FDr022Dt",
+    "prenom_veuf_deces": "fldhyDEnXi0C2ZeEi",
+    "Type de contrat": "fldetLeyEy7le9obf",
+    "nom_veuf_deces": "fldyrLYRCaazbJiIT",
+    "Date du contrat de mariage": "fldepuuzBtJWnhhIq",
+    "Ville tribunal divorce 1": "fldWQT5s6enSbc28R",
+    "Notaire rédacteur contrat mariage": "fldaed8EzhIjHZgO1",
+    "Ville tribunal divorce 2": "fld30Lrjje3dL5nr3",
+    "tribunal / mairie PACS": "fldGN3b2JRNzaBrDS",
+    "date tribunal divorce 1": "fld4JlGriDHpUBRw3",
+    "Commune_PACS": "fldhaUa0PRL4Yw44t",
+    "date tribunal divorce 2": "fldqGaoiDaRIqTuUH",
+    "Date PACS": "fldeMSFMcYEtVPgOP",
+    "civilité-ex-conjoint_1": "fldyhdCKaEJQD5IAW",
+    "Premiere_noces_1": "flduACb4y5f1Dvcz9",
+    "civilité-ex-conjoint_2": "fldgssPeD1m2acJS8",
+    "Premiere_noces_2": "fld6rJBgtV3zfsh6Y",
+    "Nom_ex_conjoint_1": "fldkockBhUg65awQC",
+    "Civilité_1": "fldsUDWGXFcmDJCz8",
+    "Nom_ex_conjoint_2": "fld0Oo37YauY79llV",
+    "Civilité_2": "fldJzMv4qfOmJVtlP",
+    "Prenom_ex_conjoint_1": "fldtidDSS8R1S6qsu",
+    "Nom_acquéreur_1": "fldX7zqzKhHIf3CdA",
+    "Prenom_ex_conjoint_2": "fldGciekIU96ss4o9",
+    "Nom_acquéreur_2": "fldQ0pFywhXAax8hg",
+    "Téléphone_1": "flddzzc0Rak4KD7K3",
+    "Nom_JF_1": "fld7TYCa8VkWQvNfS",
+    "Téléphone_2": "flduA4IAneMhnBoML",
+    "Nom_JF_2": "fld8JM7cb4xxmmVtz",
+    "Mail_1": "fldxx07vbcYAsJspT",
+    "Prénom_1": "fldaipirLQ5vZyodF",
+    "Mail_2": "fld9GvH9rm7gj1zPy",
+    "Prénom_2": "fldue4aO3XKUACywO",
+    "Dénomination_societe": "fldeGFis8i8yw3ygm",
+    "Profession_1": "fldw0qymbyRhJlP1p",
+    "Nom_gérant_societe": "fldsWbqcPZsjhE9YY",
+    "Profession_2": "fldxkEOxIqgEx80sD",
+    "Capital_social_societe": "fldt6u61unGOnq271",
+    "Nom_employeur_1": "fld28sjFtxbjUUpcK",
+    "immatriculation_societe": "fldZsF4QPMJkeDYGt",
+    "Nom_employeur_2": "fldfwjMHfX441Pm4I",
+    "Tribunal_commerce_societe": "fldc0KwTGkK5BkiYH",
+    "Situation_professionnelle_1": "fldnj4pdDiIa3SmFW",
+    "SIREN_societe": "fldXVjqmyzqD8bCHq",
+    "Situation_professionnelle_2": "fldU7OCcQDgT2eoY4",
+    "Date_PV_gerant_societe": "fldLYKbY2XoaaWnSF",
+    "Date_retraite_1": "fldm115RI5kFseZmf",
+    "Siège_social_societe": "fldeklX0fl8NpSQiC",
+    "Date_retraite_2": "fldsxoSn0GSiwcW18",
+    "Mairie_mariage": "fldzaV5te9EboCwxP",
+    "Date_naissance_1": "fldPmCKUP7lCKD9m2",
+    "Ville Notaire mariage": "fldu03Che7u0Gnmh7",
+    "Date_naissance_2": "fldeC4sjtnOga9l4p",
+    "Pays Mairie_mariage": "fldF4TynJHeSpK6Mw",
+    "Ville_naissance_1": "fldRmkEu5isTVs8cn",
+    "Civilité_Ex": "fldp5z5jWIeZ6UrKt",
+    "Ville_naissance_2": "fld1O0SWPE3u2s9u7",
+    "Nom_1_Ex": "fldoSAKs28w9lhxLv",
+    "Pays_naissance_1": "fldTEW574k9YNrxWa",
+    "Prénom_1_Ex": "fldFYgrbm6waLNe3o",
+    "Pays_naissance_2": "fldwTs4qRpBQDQx51",
+    "Notaire_divorce": "fldkEEnk7Zan2c7zv",
+    "Nationalité_1": "fldvDV2fVAnvfZccs",
+    "Ville Notaire_divorce": "fldosxOMcHkNAV1ue",
+    "Nationalité_2": "fldXJgXx53xS8Jlwt",
+    "Pays_Notaire_divorce": "fldFrYk2pozRTcLwD"
+  }
+}

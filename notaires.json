@@ -1,0 +1,148 @@
+{
+  "BNP REIM": {
+    "default": {
+      "nom": "Arthur CAZALET",
+      "adresse": "64 avenue Kléber",
+      "cp": "75016",
+      "commune": "PARIS"
+    }
+  },
+  "PHH3": {
+    "default": {
+      "nom": "Linda BOZETTI-HEURTEVENT",
+      "adresse": "188 avenue Victor HUGO",
+      "cp": "75016",
+      "commune": "PARIS"
+    }
+  },
+  "PHH1": {
+    "AIX": {
+      "nom": "Aurélien BOURDET",
+      "adresse": "64 avenue Kléber",
+      "cp": "75016",
+      "commune": "PARIS"
+    },
+    "METZ": {
+      "nom": "Guillaume GRIMONNET-SAINT-ALBAN",
+      "adresse": "4 Place Saint-Nicolas",
+      "cp": "57000",
+      "commune": "METZ"
+    }
+  },
+  "SAFRAN": {
+    "CATTENOM": {
+      "nom": "Linda BOZETTI-HEURTEVENT",
+      "adresse": "188 avenue Victor HUGO",
+      "cp": "75016",
+      "commune": "PARIS"
+    },
+    "CHINON": {
+      "nom": "Linda BOZETTI-HEURTEVENT",
+      "adresse": "188 avenue Victor HUGO",
+      "cp": "75016",
+      "commune": "PARIS"
+    },
+    "CHOOZ": {
+      "nom": "Linda BOZETTI-HEURTEVENT",
+      "adresse": "188 avenue Victor HUGO",
+      "cp": "75016",
+      "commune": "PARIS"
+    },
+    "DAMPIERRE": {
+      "nom": "Linda BOZETTI-HEURTEVENT",
+      "adresse": "188 avenue Victor HUGO",
+      "cp": "75016",
+      "commune": "PARIS"
+    },
+    "FESSENHEIM": {
+      "nom": "Linda BOZETTI-HEURTEVENT",
+      "adresse": "188 avenue Victor HUGO",
+      "cp": "75016",
+      "commune": "PARIS"
+    },
+    "FLAMANVILLE": {
+      "nom": "Linda BOZETTI-HEURTEVENT",
+      "adresse": "188 avenue Victor HUGO",
+      "cp": "75016",
+      "commune": "PARIS"
+    },
+    "GRAVELINES": {
+      "nom": "Linda BOZETTI-HEURTEVENT",
+      "adresse": "188 avenue Victor HUGO",
+      "cp": "75016",
+      "commune": "PARIS"
+    },
+    "NOGENT": {
+      "nom": "Linda BOZETTI-HEURTEVENT",
+      "adresse": "188 avenue Victor HUGO",
+      "cp": "75016",
+      "commune": "PARIS"
+    },
+    "PALUEL": {
+      "nom": "Linda BOZETTI-HEURTEVENT",
+      "adresse": "188 avenue Victor HUGO",
+      "cp": "75016",
+      "commune": "PARIS"
+    },
+    "PENLY": {
+      "nom": "Linda BOZETTI-HEURTEVENT",
+      "adresse": "188 avenue Victor HUGO",
+      "cp": "75016",
+      "commune": "PARIS"
+    },
+    "Saint-Laurent-des-Eaux": {
+      "nom": "Linda BOZETTI-HEURTEVENT",
+      "adresse": "188 avenue Victor HUGO",
+      "cp": "75016",
+      "commune": "PARIS"
+    },
+    "BELLEVILLE": {
+      "nom": "Ségolène GIROUDIERE",
+      "adresse": "376 avenue du 7ème Régiment des Tirailleurs Algériens",
+      "cp": "13190",
+      "commune": "ALLAUCH"
+    },
+    "BLAYAIS": {
+      "nom": "Ségolène GIROUDIERE",
+      "adresse": "376 avenue du 7ème Régiment des Tirailleurs Algériens",
+      "cp": "13190",
+      "commune": "ALLAUCH"
+    },
+    "BUGEY": {
+      "nom": "Ségolène GIROUDIERE",
+      "adresse": "376 avenue du 7ème Régiment des Tirailleurs Algériens",
+      "cp": "13190",
+      "commune": "ALLAUCH"
+    },
+    "CIVAUX": {
+      "nom": "Ségolène GIROUDIERE",
+      "adresse": "376 avenue du 7ème Régiment des Tirailleurs Algériens",
+      "cp": "13190",
+      "commune": "ALLAUCH"
+    },
+    "Cruas-Meysse": {
+      "nom": "Ségolène GIROUDIERE",
+      "adresse": "376 avenue du 7ème Régiment des Tirailleurs Algériens",
+      "cp": "13190",
+      "commune": "ALLAUCH"
+    },
+    "GOLFECH": {
+      "nom": "Ségolène GIROUDIERE",
+      "adresse": "376 avenue du 7ème Régiment des Tirailleurs Algériens",
+      "cp": "13190",
+      "commune": "ALLAUCH"
+    },
+    "Saint-Alban": {
+      "nom": "Ségolène GIROUDIERE",
+      "adresse": "376 avenue du 7ème Régiment des Tirailleurs Algériens",
+      "cp": "13190",
+      "commune": "ALLAUCH"
+    },
+    "TRICASTIN": {
+      "nom": "Ségolène GIROUDIERE",
+      "adresse": "376 avenue du 7ème Régiment des Tirailleurs Algériens",
+      "cp": "13190",
+      "commune": "ALLAUCH"
+    }
+  }
+}
